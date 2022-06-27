@@ -1,0 +1,104 @@
+body{
+  background-image: linear-gradient(to right, #343A40  , #F25A2C );
+}
+main {
+  min-height: 80vh;
+}
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+h3 {
+  padding: 1rem 0;
+}
+.rating span {
+  margin: 0.1rem;
+}
+input,select,textarea{
+  background-color: rgba(255,255,255,0.2) !important;
+  color:white !important;
+}
+label,table,::placeholder{
+  color:white !important
+}
+select option{
+  color:black;
+  background: #f4594b6b;
+} 
+/* carousel */
+.carousel{
+  background:transparent
+}
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+.carousel-caption h2 {
+  color: #fff;
+}
+.carousel img {
+  height: 400px;
+  padding: 30px;
+  margin: 100px;
+  border-radius: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+.header-logo{
+  width: 20%;
+}
+/*.article-btn,.product-btn*/
+.bg-btn{
+  background:#343A40;
+  color:white;
+  transition: 0.5s;
+}
+.bg-btn:hover{
+  background:#F25A2C;
+  color:white;
+}
+.btn-gradient{
+  color:white;
+  padding: 5%;
+  background: #f25a2c94;
+  display: block; 
+  width: 60%;
+  margin-left: auto; 
+  margin-right: 0px;
+  transition: 0.5s;
+}
+.btn-gradient:hover{
+  color:white;
+  background:#343a403a;
+  text-decoration: none; 
+}
+.footer img{
+  width: 5%;
+}
+@media (max-width: 900px) {
+  .btn-gradient{
+    width: 45%;
+  }
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+  .carousel img {
+    height: 250px;
+  }
+  .footer img{
+    width: 15%;
+  }
+}
